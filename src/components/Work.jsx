@@ -12,7 +12,7 @@ export default function Work() {
 
         <div className="portfolio">
             <a href="#" className="portfolio__item">
-                <img src="" alt="temp" className="portfolio__img" />
+                <img src="bg-table.jpg" alt="Background picture" className="portfolio__img" />
             </a>
 
             <a href="#" className="portfolio__item">

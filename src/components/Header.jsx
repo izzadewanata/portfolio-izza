@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
         <div className="logo">
-            <img src="profile-izza.png" alt="Profile picture" />
+            <img src="#" alt="Logo" />
         </div>
         <button className="nav-toggle" aria-label="navigation toggle">
             <span className="hamburger"></span>

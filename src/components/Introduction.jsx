@@ -9,7 +9,7 @@ export default function Introduction() {
         <p className="section__subtitle section__subtitle--intro">
             front-end dev
         </p>
-        <img src="picture-izza.png" alt="Profile Picture" />
+        <img src="profile-izza.png" alt="Profile Picture #1" className="intro__img" />
     </section>
   )
 }
