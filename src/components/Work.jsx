@@ -3,24 +3,36 @@ import React from 'react'
 export default function Work() {
   return (
     <section className="my-work" id="work">
-        <h2 className="seciton__title">
+        <h2 className="section__title section__title--work">
             My work
         </h2>
-        <p className="section__subtitle">
-
+        <p className="section__subtitle section__subtitle--work">
+            A selection of my range of work
         </p>
 
         <div className="portfolio">
             <a href="#" className="portfolio__item">
-                <img src="bg-table.jpg" alt="Background picture" className="portfolio__img" />
+                <img src="example.jpg" alt="example" className="portfolio__img" />
             </a>
 
             <a href="#" className="portfolio__item">
-                <img src="" alt="temp" className="portfolio__img" />
+                <img src="example.jpg" alt="example" className="portfolio__img" />
             </a>
 
             <a href="#" className="portfolio__item">
-                <img src="" alt="temp" className="portfolio__img" />
+                <img src="example.jpg" alt="example" className="portfolio__img" />
+            </a>
+
+            <a href="#" className="portfolio__item">
+                <img src="example.jpg" alt="example" className="portfolio__img" />
+            </a>
+
+            <a href="#" className="portfolio__item">
+                <img src="example.jpg" alt="example" className="portfolio__img" />
+            </a>
+
+            <a href="#" className="portfolio__item">
+                <img src="example.jpg" alt="example" className="portfolio__img" />
             </a>
             
         </div>
