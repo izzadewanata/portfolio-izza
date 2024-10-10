@@ -6,15 +6,15 @@
 
 /* Custom properties  */
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondary: 'Source Sans Pro', monospace;
+  --ff-primary: 'Lora', sans-serif;
+  --ff-secondary: 'Roboto Slab', monospace;
 
-  --fw-reg: 300;
-  --fw-bold: 900;
+  --fw-reg: 400;
+  --fw-bold: 700;
 
-  --clr-light: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-light: #fefae0;
+  --clr-dark: #283618;
+  --clr-accent: #dda15e;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -36,6 +36,11 @@
 
 
 /* General styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -173,6 +178,61 @@ header {
   color: var(--clr-accent);
 }
 
+.nav-toggle {
+  padding: .5em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 1000;
+}
+
+/* Hamburger toggle */
+.nav-open .nav {
+  transform: translateX(0);
+}
+.nav-open .nav-toggle {
+  position: fixed;
+}
+.nav-open .hamburger {
+  transform: rotate(.625turn);
+}
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
+}
+.nav-open .hamburger::after {
+  opacity: 0;
+}
+
+
+.hamburger {
+  display: block;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: var(--clr-accent);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position:absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before { top: 6px }
+.hamburger::after { bottom: 6px }
+
 
 /* Intro section  */
 .intro {
@@ -219,7 +279,7 @@ header {
 }
 
 
-/* My Service section */
+/* Service section */
 .my-services {
   background-color: var(--clr-dark);
   background-image: url(bg-table.jpg);
@@ -263,6 +323,11 @@ header {
 
   .service + .service {
     margin-left: 2em;
+  }
+
+  /* Modified */
+  intro__img {
+    max-width: 300px;
   }
 }
 
@@ -319,8 +384,9 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* max-width: 1200px; */
+  grid-template-columns: repeat(3, 1fr)
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1200px; */
 }
 
 .portfolio__item {
