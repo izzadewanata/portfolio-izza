@@ -11,8 +11,9 @@ export default function About() {
         </p>
 
         <div className="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Innovative and detail-oriented Front-End Developer with a strong foundation in both web development and software testing. Leveraging my background as a Test Analyst, I bring a unique perspective to front-end development, combining a keen eye for detail with a deep understanding of quality assurance processes</p>
+            
+            <p>Proficient in building responsive, user-centered interfaces with HTML, CSS, JavaScript, and frameworks such as React and Vue.js, I am committed to delivering polished, efficient, and bug-free applications. Known for my problem-solving abilities and collaborative approach, I thrive in environments where I can ensure both technical precision and an excellent user experience.</p>
         </div>
 
         <img src="picture-izza.jpg" alt="Profile picture #2" className="about-me__img" />

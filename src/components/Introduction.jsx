@@ -7,7 +7,7 @@ export default function Introduction() {
             Hi, I am <strong>Izza Sinatrya</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">
-            front-end dev
+            Front-End Developer
         </p>
         <img src="profile-izza.jpg" alt="Profile Picture #1" className="intro__img" />
     </section>

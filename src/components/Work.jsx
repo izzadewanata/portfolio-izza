@@ -11,28 +11,16 @@ export default function Work() {
         </p>
 
         <div className="portfolio">
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
+            <a href="https://izzadewanata.github.io/digital-clock/" className="portfolio__item" target="_blank">
+                <img src="Project-1.png" alt="Digital Clock" className="portfolio__img" />
             </a>
 
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
+            <a href="https://izzadewanata.github.io/loading-bar/" className="portfolio__item" target="_blank">
+                <img src="Project-2.png" alt="Loading Page" className="portfolio__img" />
             </a>
 
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
-            </a>
-
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
-            </a>
-
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
-            </a>
-
-            <a href="#" className="portfolio__item">
-                <img src="example.jpg" alt="example" className="portfolio__img" />
+            <a href="https://izzadewanata.github.io/todo-list/" className="portfolio__item" target="_blank">
+                <img src="Project-3.png" alt="To Do List" className="portfolio__img" />
             </a>
             
         </div>

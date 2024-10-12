@@ -9,17 +9,17 @@ export default function Services() {
         <div className="services">
             <div className="service">
                 <h3>Design + Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Create visually engaging, responsive web pages using HTML, CSS, and JavaScript, ensuring a seamless user experience across devices. Ensure that layouts are responsive and adaptive across devices, including desktops, tablets, and mobile phones.</p>
             </div>
 
             <div className="service">
-                <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>APIs and Asynchronous Data Loading</h3>
+                <p>Connect with backend APIs to retrieve and display data asynchronously without reloading the page. Enhancing interactivity and dynamic content with modern frameworks like React, Angular, or Vue.js.</p>
             </div>
 
             <div className="service">
-                <h3>WordPress</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Debugging and Testing</h3>
+                <p>Perform regular testing to identify and fix bugs, using tools like Chrome DevTools, Jest, or Selenium. Utilize debugging tools and unit testing (e.g., Jest, Cypress) to identify and resolve issues across browsers and devices.</p>
             </div>
         </div>
 
