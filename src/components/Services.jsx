@@ -14,12 +14,12 @@ export default function Services() {
 
             <div className="service">
                 <h3>APIs and Asynchronous Data Loading</h3>
-                <p>Connect with backend APIs to retrieve and display data asynchronously without reloading the page. Enhancing interactivity and dynamic content with modern frameworks like React, Angular, or Vue.js.</p>
+                <p>Connect with backend APIs to retrieve and display data asynchronously without reloading the page. Enhancing interactivity and dynamic content with modern frameworks such as React App</p>
             </div>
 
             <div className="service">
                 <h3>Debugging and Testing</h3>
-                <p>Perform regular testing to identify and fix bugs, using tools like Chrome DevTools, Jest, or Selenium. Utilize debugging tools and unit testing (e.g., Jest, Cypress) to identify and resolve issues across browsers and devices.</p>
+                <p>Conduct thorough testing of user interfaces to ensure smooth and intuitive user experiences, collaborating closely with developers to identify and resolve UI bugs. Verify the functionality and usability of front-end features across multiple browsers and devices, analyzing design elements to maintain consistency and responsiveness. </p>
             </div>
         </div>
 
