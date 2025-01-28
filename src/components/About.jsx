@@ -16,7 +16,7 @@ export default function About() {
             <p>Proficient in building responsive, user-centered interfaces with HTML, CSS, JavaScript, and frameworks such as React App, I am committed to delivering polished, efficient, and bug-free applications. Known for my problem-solving abilities and collaborative approach, I thrive in environments where I can ensure both technical precision and an excellent user experience.</p>
         </div>
 
-        <img src="picture-izza.jpg" alt="Profile picture #2" className="about-me__img" />
+        <img src="Casual-izza.jpg" alt="Profile picture #2" className="about-me__img" />
     </section>
   )
 }
