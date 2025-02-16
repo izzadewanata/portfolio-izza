@@ -76,7 +76,7 @@ strong { font-weight: var(--fw-bold) }
   color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
-  font-size: .8rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
@@ -316,7 +316,7 @@ header {
 @media (min-width: 800px) {
   .services {
     display: flex;
-    max-width: 1000px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
   }
