@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/portfolio-izza/"
+  build: {
+    outDir: 'docs',  // ← This tells Vite to build to /docs folder
+    emptyOutDir: true
+  },
+  base: '/portfolio-izza/'
 })
