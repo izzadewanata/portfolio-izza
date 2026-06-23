@@ -15,7 +15,7 @@
     <meta property="og:description" content="Portfolio of Izza Sinatrya, Software and QA Engineer with 3+ years of experience." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://izzadewanata.github.io/portfolio-izza/" />
-    <meta property="og:image" content="/profile-izza.jpg" />
+    <meta property="og:image" content="assets/images/profile-izza.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     
@@ -23,25 +23,141 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Izza Sinatrya – Software & QA Engineer" />
     <meta name="twitter:description" content="Portfolio of Izza Sinatrya, Software and QA Engineer." />
-    <meta name="twitter:image" content="/profile-izza.jpg" />
+    <meta name="twitter:image" content="assets/images/profile-izza.jpg" />
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <!-- Alternatively, use a simple SVG favicon:
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
     
-    <!-- Optional: Preconnect for faster Google Fonts loading -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- HEADER -->
+    <header>
+      <button class="nav-toggle" aria-label="navigation toggle" id="navToggle">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link" data-nav-link>Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link" data-nav-link>My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link" data-nav-link>About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link" data-nav-link>My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Izza Sinatrya</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Software / QA Engineer
+      </p>
+      <img src="assets/images/profile-izza.jpg" alt="Izza Sinatrya" class="intro__img" />
+    </section>
+
+    <!-- SERVICES -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Test Planning & Strategy Development</h3>
+          <p>
+            Define comprehensive test plans and strategies from technical specifications. Analyze risks, design detailed test cases, and establish clear acceptance criteria to capture defects early.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Hybrid Test Execution & Defect Tracking</h3>
+          <p>
+            Validate software quality using a mix of manual exploratory testing and automated suites. I execute functional, regression, and integration tests, documenting actionable bugs in Jira for fast resolution.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Automation Framework Engineering</h3>
+          <p>
+            Design and maintain scalable test automation frameworks. I write clean, efficient script code, optimize test suites for reliability, and integrate testing into CI/CD pipelines.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-me" id="about-me">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software & Quality Assurance Analyst
+      </p>
+      <div class="about-me__body">
+        <p>
+          A results-driven QA Engineer with 4+ years of experience in IT consulting, specializing in large-scale testing programs and digital transformation initiatives. Adept across the entire SDLC, with hands-on expertise in end-to-end, integration, and product verification testing, as well as robust defect management. 
+        </p>
+        <p>
+          Proven capability in leading and mentoring small testing teams (3–6 members) to ensure high-quality delivery. Strong programming foundation in Java, Python, and JavaScript/TypeScript, driving efficient test automation and scripting.
+        </p>
+      </div>
+      <img src="assets/images/Casual-izza.jpg" alt="Izza working" class="about-me__img" />
+    </section>
+
+    <!-- WORK -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <a href="https://izzadewanata.github.io/microGPT/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/Project-1.png" alt="microGPT project screenshot" class="portfolio__img" />
+        </a>
+        <a href="https://izzadewanata.github.io/myrecipe/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/Project-2.png" alt="MyRecipe app screenshot" class="portfolio__img" />
+        </a>
+        <a href="https://izzadewanata.github.io/rock-paper-scissors/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+          <img src="assets/images/Project-3.png" alt="Rock Paper Scissors game screenshot" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a href="mailto:izza.career@gmail.com" class="footer__link">
+        izza.career@gmail.com
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://github.com/izzadewanata" class="social-list__link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/izzasinatrya/" class="social-list__link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="mailto:izza.career@gmail.com" class="social-list__link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-google"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="main.js"></script>
   </body>
 </html>
